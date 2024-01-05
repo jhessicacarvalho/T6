@@ -1,0 +1,16 @@
+/* Synlig navigation for desktop */
+.nav-menu {
+  display: block;
+}
+
+/* Skjult navigation for mobil (burgermenu) */
+@media screen and (max-width: 768px) {
+  .nav-menu {
+    display: none;
+  }
+
+  /* Vis burgermenu-ikonet */
+  .burger-icon {
+    display: block;
+  }
+}
